@@ -1,0 +1,67 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    }
+    body{
+        height: 100%;
+    }
+    #img{
+        background-image: url(pillakayalu.png);
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        min-height: 100vh;
+     
+          
+    }
+    .lang-on-img{
+      background-color:rgba(0, 0, 0, 0.696);
+        height: 100px;
+        width:200px;
+        margin-bottom: 10px;
+        display:inline-block;
+        position: relative;
+    }
+    .lang-on-img:hover{
+    cursor:pointer;
+    }
+    #hin{
+        
+        height: 80px;
+        width: 235px;
+        top: 135px;;
+        left: 895px;
+    
+    
+    }
+    #kan{
+        
+        height: 75px;
+        width:235px;
+        top: 220px;
+        left: -500px;
+    }
+    #mal{
+        
+       height:75px ;
+       width: 250px;
+       top: 228px;
+       left: -593px;
+        
+    }
+    #tam{
+        
+        height: 80px;
+        width:235px;
+        right:-419px;
+        bottom:-60px;
+    }
+    #lang{
+        height: 80px;
+        width:290px;
+        right:-310px;
+        bottom:-60px;
+    }
+    #tel{
+        bottom:-59px;
+        right:-145px;
+    }

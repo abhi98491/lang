@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Buyer Login Form</title>
+    <link rel="stylesheet" href="login.css">
+</head>
+
+<body style="background-image: url('../images/Login_Background.jpeg'); background-size: cover;">
+    
+    <div class="login-container">
+        <h2>Login </h2>
+        <form action="../PHP/Database.php" method="POST">
+            <div class="form__group field">
+                <input type="input" class="form__field" placeholder="Name" name="username" required>
+                <label for="name" class="form__label">Username</label>
+            </div>
+            <div class="form__group field">
+                <input type="password" class="form__field" placeholder="Name" name="password" required>
+                <label for="name" class="form__label">Password</label>
+            </div>
+            <input type="submit" value="Login" name="login">
+            <p style="margin: 0%;">Don't have an account? <a href="Buyer_Registration.html">Register here</a></p>
+        </form>
+    </div>
+    
+   
+
+</body>
+</html>
